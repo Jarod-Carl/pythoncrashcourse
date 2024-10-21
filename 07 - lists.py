@@ -30,7 +30,7 @@ print("My list:", my_list)
 
 # to call index 3 of my_list, use brackets in front of the name of the list
 
-print("Index 3 of my_list is:",my_list[3])
+print("Index 3 of my_list is:",my_list[7])
 
 # What happens if we try to go negative with the index?
 # Try printing my_list[-1]
@@ -54,3 +54,5 @@ print(my_list)
 # BREAK IT
 # what happens if you try a number that is higher than the highest index of 5?
 # Why do you get the error?
+
+# The index is out of range from length of the list

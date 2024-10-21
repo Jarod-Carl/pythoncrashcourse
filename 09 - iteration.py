@@ -41,8 +41,8 @@ for num in my_nums:
 # What happens if we try to modify the loop while iterating through it?
 # For example, what if we try to remove the number from the list as we go through?
 
-# for num in my_nums:
-#     my_nums.remove(num)
-#     print(my_nums)
+for num in my_nums:
+    my_nums.remove(num)
+    print(my_nums)
 
 # This actually doesn't create an error, but it also doesn't behave how you might expect. Look at the output and try to figure out what's going on!

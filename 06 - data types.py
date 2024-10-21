@@ -44,12 +44,14 @@ print("The value of string4 is:", string4)
 
 # What happens if we multiply a string by an integer?
 # for example:
-# print("Hello " * 10)
+print("Hello " * 10)
 # try it out! It actually works!
-
+print(string1 - string2)
 
 # BREAK IT:
 # What happens if you try to subtract a string from a string?
 # What happens if you multiply a string by a string?
 # What happens if you divide an integer by zero?
 # Why do these errors occur?
+
+#subtracting a string from a string isn't supported

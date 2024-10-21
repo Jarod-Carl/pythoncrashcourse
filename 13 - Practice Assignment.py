@@ -12,9 +12,9 @@ def even_numbers(num):
     # num is a positive integer greater than zero
     # return a list of all even integers from 0 until 1 less than the number
     # For example, if the number is 6, return [0,2,4]
-    
-    # write your code here    
 
+    # write your code here    
+    
     # replace the return value your even number list
     return []
 

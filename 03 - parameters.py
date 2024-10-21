@@ -17,7 +17,7 @@ def hello(name):
 
 # An argument is the value that is sent to the function when you call it.
 
-hello("Dan")
+hello()
 
 # in this case, the argument is "Dan"
 
@@ -30,3 +30,4 @@ hello("Dan")
 # What happens if you put multiple arguments in, like hello("Dan","Sarah")?
 # Why did the errors occur?
 
+# The function is expecting a parameter so it will not run without one

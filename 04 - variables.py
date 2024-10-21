@@ -17,17 +17,17 @@ print(x,y)
 # What if we declare a variable from another variable? What if you write:
 # x = "Hello"
 # y = "World"
-# z = y
-# print(x,y,z)
+z = y
+print(x,y,z)
 # What prints now?
 
 # You should see "Hello World World". This is because a variable can also be assigned from another variable! Notice that, in this case the y didn't have quotation marks around it even though it was on the right side.
 
 # What happens if we do use quotation marks?
-# x = "Hello"
-# y = "World"
-# z = "y"
-# print(x,y,z)
+x = "Hello"
+y = "World"
+z = "y"
+print(x,y,1)
 # What prints now?
 
 # You should see "Hello World y". This is because the y is not actually the variable y, but instead just the value of y. You'll see more about this in the next section.
@@ -35,5 +35,7 @@ print(x,y)
 # BREAK IT:
 # What happens if you try to use a number as a variable name?
 # For example: 
-# 1 = "Hello"
+1 = "Hello"
 # Why do you think the error occurs?
+
+# 1 is not a variable, it is a value. 

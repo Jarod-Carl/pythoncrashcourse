@@ -27,7 +27,7 @@ y = 10
 
 if x < y:
     print(x,"is less than",y)
-else:
+#else:
     # notice the code in else is also indented, indicating it is within the else statement
     print(x,"is not less than",y)
 
@@ -41,3 +41,4 @@ else:
 # Does anything print out?
 # Why or why not?
 
+# There isn't an error. The case for else just won't print

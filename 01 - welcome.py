@@ -29,3 +29,5 @@ print("Hello)
 # AS YOUR READ THROUGH EACH SCRIPT, WHEN YOU FINISH, BE SURE TO RUN THE SCRIPT AND READ THE OUTPUT TO SEE WHAT IS GOING ON.
 
 # Each assignment will have a "BREAK IT!" section which will give you some ideas on how to break the code, either causing errors or unexpected behavior. It is good to break the code to try to understand what causes these problems so you'll know how to troubleshoot them when they occur in your own code!
+
+# Syntax error. Fucntion is expecting a specific syntax
