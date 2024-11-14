@@ -31,11 +31,13 @@ def check_win(user, comp):
     elif user == 2 and comp == 0:
         return "Loss"
     
-def update_score(user, comp, result):
+def update_score(result):
+    global user_score
+    global comp_score
     if result == "Win":
-        user = user + 1
+        user_score += 1
     elif result == "Loss":
-        comp = comp + 1
+        comp_score += comp_score
 
 
 
@@ -58,9 +60,9 @@ while game_going:
     print(f"Computer chose ", options[comp_input])
     print(f"You chose ", options[user_input])
     print(f"You ", result)
-    update_score(user_score, comp_score, result)
+    update_score(result)
 
-    print(user_score)
+    print(f"You have ", user_score, "point(s)!")
 
     
 
