@@ -37,7 +37,7 @@ def update_score(result):
     if result == "Win":
         user_score += 1
     elif result == "Loss":
-        comp_score += comp_score
+        comp_score += 1
 
 
 
